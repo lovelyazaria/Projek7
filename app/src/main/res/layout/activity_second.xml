@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ISI JURNAL"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="90dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTanggal"
+        android:hint="Isi Tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etJurnal"
+        android:hint="Tulis jurnal hari ini..."
+        android:minLines="4"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/btnSimpanJurnal"
+        android:text="Simpan Jurnal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</LinearLayout>

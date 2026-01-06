@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIODATA"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="90dp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etNama"
+            android:hint="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etUmur"
+            android:hint="Umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:hint="Alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnLanjut"
+            android:text="Simpan dan Lanjut ke Jurnal"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
+
